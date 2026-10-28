@@ -1,26 +1,91 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand Color Palette */
+  --secondary-bg: #2A3F33;
+  --secondary-text: #EEEEE5;
+
+  --primary-bg: #EEEEE5;
+  --primary-text: #361C07;
+
+  --hover-bg: #C7B98D;
+  --button-bg: #B34325;
+
+  /* Global Theme */
+  --background: var(--primary-bg);
+  --foreground: var(--primary-text);
 }
 
 @theme inline {
+  --color-secondary-bg: var(--secondary-bg);
+  --color-secondary-text: var(--secondary-text);
+
+  --color-primary-bg: var(--primary-bg);
+  --color-primary-text: var(--primary-text);
+
+  --color-hover-bg: var(--hover-bg);
+  --color-button-bg: var(--button-bg);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--primary-bg);
+  color: var(--primary-text);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--hover-bg);
+  color: var(--primary-text);
+}
+
+/* .karla-display {
+  font-family: var(--font-display), sans-serif;
+  font-weight: 800;
+  font-size: clamp(4rem, 12vw, 9rem);
+  line-height: 0.95;
+  letter-spacing: -0.045em;
+  -webkit-text-stroke: 0.5px currentColor;
+  paint-order: stroke fill;
+
+  text-shadow:
+    2px 2px 0 var(--display-shadow-1, transparent),
+    4px 4px 0 var(--display-shadow-2, transparent),
+    6px 6px 0 var(--display-shadow-1, transparent),
+    8px 8px 0 var(--display-shadow-2, transparent);
+} */
+
+
+
+
+@theme inline {
+  /* Existing color variables stay here */
+
+  --font-body: var(--font-body);
+  --font-display: var(--font-display);
 }

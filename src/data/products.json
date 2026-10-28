@@ -1,0 +1,204 @@
+
+{
+  "products": [
+    {
+      "id": "ply-001",
+      "name": "Premium MR Plywood",
+      "category": "Plywood",
+      "subtitle": "Moisture-resistant plywood for everyday interiors.",
+      "image": "/images/process.png",
+      "availableThickness": ["6 mm", "9 mm", "12 mm", "18 mm"],
+      "bestFit": [
+        "Wardrobes and cabinets",
+        "Bedroom furniture",
+        "Interior panelling",
+        "Residential interiors"
+      ]
+    },
+    {
+      "id": "ply-002",
+      "name": "BWR Grade Plywood",
+      "category": "Plywood",
+      "subtitle": "Boiling-water-resistant plywood for demanding applications.",
+      "image": "/images/products/bwr-plywood.png",
+      "availableThickness": ["6 mm", "9 mm", "12 mm", "16 mm", "18 mm"],
+      "bestFit": [
+        "Kitchen cabinets",
+        "Bathroom vanities",
+        "Utility furniture"
+      ]
+    },
+    {
+      "id": "ply-003",
+      "name": "Marine Grade Plywood",
+      "category": "Plywood",
+      "subtitle": "Water-resistant plywood for moisture-prone environments.",
+      "image": "/images/products/marine-plywood.png",
+      "availableThickness": ["6 mm", "9 mm", "12 mm", "18 mm", "25 mm"],
+      "bestFit": [
+        "Marine interiors",
+        "Kitchen furniture",
+        "Moisture-prone spaces",
+        "Premium interiors"
+      ]
+    },
+    {
+      "id": "ply-004",
+      "name": "Calibrated Plywood",
+      "category": "Plywood",
+      "subtitle": "Uniform-thickness plywood for precision furniture work.",
+      "image": "/images/products/calibrated-plywood.png",
+      "availableThickness": ["12 mm", "16 mm", "18 mm", "25 mm"],
+      "bestFit": [
+        "Modular furniture",
+        "Laminated surfaces",
+        "Precision cabinetry"
+      ]
+    },
+    {
+      "id": "bb-001",
+      "name": "Commercial Blockboard",
+      "category": "Blockboard",
+      "subtitle": "Stable blockboard for furniture and interior construction.",
+      "image": "/images/products/commercial-blockboard.png",
+      "availableThickness": ["19 mm", "25 mm"],
+      "bestFit": [
+        "Interior doors",
+        "Shelving",
+        "Partitions",
+        "Furniture frames"
+      ]
+    },
+    {
+      "id": "bb-002",
+      "name": "Premium Blockboard",
+      "category": "Blockboard",
+      "subtitle": "Blockboard designed for sturdy, long-lasting applications.",
+      "image": "/images/products/premium-blockboard.png",
+      "availableThickness": ["19 mm", "25 mm", "30 mm"],
+      "bestFit": [
+        "Long-span shelves",
+        "Table tops",
+        "Door panels"
+      ]
+    },
+    {
+      "id": "door-001",
+      "name": "Flush Door",
+      "category": "Doors",
+      "subtitle": "A clean, versatile door solution for modern interiors.",
+      "image": "/images/products/flush-door.png",
+      "availableThickness": ["30 mm", "32 mm", "35 mm"],
+      "bestFit": [
+        "Bedroom entrances",
+        "Office interiors",
+        "Residential projects"
+      ]
+    },
+    {
+      "id": "door-002",
+      "name": "Decorative Door",
+      "category": "Doors",
+      "subtitle": "A decorative door option for refined interior spaces.",
+      "image": "/images/products/decorative-door.png",
+      "availableThickness": ["30 mm", "32 mm", "35 mm"],
+      "bestFit": [
+        "Main interiors",
+        "Bedroom doors",
+        "Premium residences"
+      ]
+    },
+    {
+      "id": "mdf-001",
+      "name": "Standard MDF Board",
+      "category": "MDF",
+      "subtitle": "Smooth engineered board for versatile interior applications.",
+      "image": "/images/products/standard-mdf.png",
+      "availableThickness": ["6 mm", "9 mm", "12 mm", "18 mm"],
+      "bestFit": [
+        "Cabinet components",
+        "Decorative panels",
+        "Furniture making"
+      ]
+    },
+    {
+      "id": "mdf-002",
+      "name": "High-Density MDF",
+      "category": "MDF",
+      "subtitle": "Dense engineered fibreboard for detailed interior work.",
+      "image": "/images/products/high-density-mdf.png",
+      "availableThickness": ["6 mm", "12 mm", "18 mm", "25 mm"],
+      "bestFit": [
+        "Precision routing",
+        "Decorative mouldings",
+        "Detailed furniture"
+      ]
+    },
+    {
+      "id": "lam-001",
+      "name": "Matte Finish Laminate",
+      "category": "Laminates",
+      "subtitle": "A refined matte surface for contemporary interiors.",
+      "image": "/images/products/matte-laminate.png",
+      "availableThickness": ["0.8 mm", "1 mm", "1.25 mm"],
+      "bestFit": [
+        "Wardrobe shutters",
+        "Kitchen cabinets",
+        "Office furniture"
+      ]
+    },
+    {
+      "id": "lam-002",
+      "name": "High Gloss Laminate",
+      "category": "Laminates",
+      "subtitle": "A reflective finish for striking, modern surfaces.",
+      "image": "/images/products/high-gloss-laminate.png",
+      "availableThickness": ["0.8 mm", "1 mm", "1.25 mm"],
+      "bestFit": [
+        "Feature panels",
+        "Modern cabinetry",
+        "Retail interiors"
+      ]
+    },
+    {
+      "id": "pvc-001",
+      "name": "PVC Foam Board",
+      "category": "PVC Foam Boards",
+      "subtitle": "Lightweight foam board for selected interior applications.",
+      "image": "/images/products/pvc-foam-board.png",
+      "availableThickness": ["5 mm", "8 mm", "12 mm", "18 mm"],
+      "bestFit": [
+        "Bathroom cabinetry",
+        "Signage",
+        "Decorative panels",
+        "Lightweight furniture"
+      ]
+    },
+    {
+      "id": "pb-001",
+      "name": "Particle Board",
+      "category": "Particle Boards",
+      "subtitle": "Engineered wood panel for economical furniture solutions.",
+      "image": "/images/products/particle-board.png",
+      "availableThickness": ["9 mm", "12 mm", "17 mm", "18 mm"],
+      "bestFit": [
+        "Modular furniture",
+        "Storage units",
+        "Office interiors"
+      ]
+    },
+    {
+      "id": "timber-001",
+      "name": "Structural Timber",
+      "category": "Timber",
+      "subtitle": "Timber supplied for suitable construction and woodworking needs.",
+      "image": "/images/products/structural-timber.png",
+      "availableThickness": ["Custom sizes"],
+      "bestFit": [
+        "Furniture frameworks",
+        "Carpentry",
+        "Construction applications"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Arjun Mehta",
+      "role": "Interior Designer",
+      "company": "Studio Form",
+      "quote": "The quality of XSpace Ply has transformed the way we approach our interior projects. Every sheet delivers the consistency and finish our clients expect.",
+      "image": "/images/testimonials/arjun.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Priya Sharma",
+      "role": "Architect",
+      "company": "Design Atelier",
+      "quote": "From product selection to the final finish, the experience has been excellent. Their materials give us the confidence to create spaces that last.",
+      "image": "/images/testimonials/priya.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rahul Nair",
+      "role": "Furniture Manufacturer",
+      "company": "Woodcraft Studio",
+      "quote": "Reliable quality makes all the difference in our work. XSpace Ply has become a trusted choice for furniture that needs to look beautiful and stand strong.",
+      "image": "/images/testimonials/rahul.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Ananya Rao",
+      "role": "Interior Consultant",
+      "company": "The Space Edit",
+      "quote": "We appreciate the balance of durability, finish, and versatility. Their products help us bring our design ideas to life with confidence.",
+      "image": "/images/testimonials/ananya.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Vikram Desai",
+      "role": "Project Manager",
+      "company": "Buildwise Interiors",
+      "quote": "Consistent material quality is essential to meeting project deadlines. XSpace Ply has been a dependable choice for our interior and furnishing work.",
+      "image": "/images/testimonials/vikram.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sneha Kapoor",
+      "role": "Homeowner",
+      "company": "Residential Client",
+      "quote": "The finished furniture looks wonderful, and the quality feels reassuring. We are happy with the results and the overall experience.",
+      "image": "/images/testimonials/sneha.jpg"
+    }
+  ]
+}
